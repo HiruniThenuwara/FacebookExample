@@ -4,7 +4,7 @@ import shopdaraz from "../assets/icons/shopdaraz.png";
 
 function IntroSection() {
   return (
-    <div className="w-2/5 bg-white p-4 rounded-md shadow-md">
+    <div className="w-full bg-white p-4 rounded-md shadow-md">
       {/* Title Section */}
       <h3 className="text-xl font-bold text-black mb-4">Intro</h3>
       

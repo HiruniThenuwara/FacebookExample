@@ -1,4 +1,3 @@
-
 import IntroSection from "./IntroSection";
 import FeaturedSection from "./FeaturedSection";
 import PhotosSection from "./PhotosSection";
@@ -9,16 +8,18 @@ function ProfilePage() {
     <div className="container mx-auto px-20 py-6 border-t">
       <div className="absolute top-0 left-0 w-full h-[1px] bg-transparent shadow-lg -mt-1"></div>
 
-      {/* First Row: Intro and Featured */}
-      <div className="flex space-x-5 p-6">
-        <IntroSection />
-        <FeaturedSection />
-      </div>
+      
+      <div className="grid grid-cols-5 gap-5 p-6">
+        <div className="col-span-2 space-y-5">
+          <IntroSection />
+          <PhotosSection />
+        </div>
 
-      {/* Second Row: Photos and Posts */}
-      <div className="flex space-x-5 p-6">
-        <PhotosSection />
-        <PostsSection />
+        
+        <div className="col-span-3 space-y-5">
+          <FeaturedSection />
+          <PostsSection />
+        </div>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ import ProfilePage from "../components/ProfilePage"
 function Page() {
   return (
     <div>
-      <div className="sticky top-0 relative absolute">
+      <div className="relative sticky top-0 z-50">
         <Navbar/> 
       </div>
        

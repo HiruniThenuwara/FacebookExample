@@ -12,7 +12,7 @@ function PhotosSection() {
   const photos = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
   return (
-    <div className="w-2/5 bg-white p-4 rounded-md shadow-md">
+    <div className="w-full bg-white p-4 rounded-md shadow-md">
       {/* Header */}
       <div className="flex justify-between items-center mb-4">
         {/* Photos title with hover effect */}
