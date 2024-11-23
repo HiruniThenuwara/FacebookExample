@@ -4,7 +4,7 @@ const Background = () => {
   return (
     <div className="relative bg-gradient-to-b from-purple-500 via-blue-300 to-white-500 h-[50vh]">
       {/* Background Image with Container */}
-      <div className="absolute inset-0 z-0 w-full h-full mx-auto ">
+      <div className="container w-full h-full mx-auto ">
         <img
           src={background}
           alt="Background Overlay"
