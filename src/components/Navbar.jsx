@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white text-gray-800 shadow-md">
+    <nav className="bg-white text-gray-800 shadow-md ">
       <div className=" mx-auto px-4 py-2 flex items-center justify-between">
         {/* Left Section: Logo and Search */}
         <div className="flex items-center space-x-4">

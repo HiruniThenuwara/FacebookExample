@@ -9,7 +9,7 @@ function PageTitleSection() {
   return (
     <div className=" container w-full h-full mx-auto px-20">
     <div className="relative bg-gray-800 bg-opacity-0 h-[10px]">
-      <div className=" top-0 left-0 w-full h-full bg-opacity-0"></div>
+      <div className="container top-0 left-0 w-full h-full bg-opacity-0"></div>
       <div className="relative container mx-auto px-20 py-10">
         <ProfilePicture />
         <div className="pl-[200px] pt-8">

@@ -33,7 +33,7 @@ function PageNavbar() {
 
   return (
     <div className="container mx-auto px-20">
-      <div className="flex items-center justify-between border-b border-gray-300 py-4">
+      <div className="flex items-center justify-between border-t border-gray-300 py-4">
         {/* Tabs */}
         <div className="flex space-x-6">
           <button className="text-blue-600 font-semibold border-b-2 border-blue-600 pb-2">
