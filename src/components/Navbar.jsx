@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 text-white shadow-md">
+    <nav className="bg-white text-gray-800 shadow-md">
       <div className=" mx-auto px-4 py-2 flex items-center justify-between">
         {/* Left Section: Logo and Search */}
         <div className="flex items-center space-x-4">
@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
 
         {/* Center Section: Icons */}
-        <div className="flex items-center space-x-20">
+        <div className="flex items-center space-x-32">
           <NavLink to="/" className="hover:text-blue-500">
             <img
               src={home} // Update with the correct path
@@ -72,7 +72,7 @@ const Navbar = () => {
         {/* Right Section: Messenger, Notifications, and Profile */}
         <div className="flex items-center space-x-4">
           <NavLink to="/menu" className="hover:text-blue-500">
-          <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center">
+          <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
             <img
               src= {menu}// Update with the correct path
               alt="Menu"
@@ -81,7 +81,7 @@ const Navbar = () => {
             </div>
           </NavLink>
           <NavLink to="/messenger" className="relative hover:text-blue-500">
-          <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center">
+          <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
             <img
               src={messenger} // Update with the correct path
               alt="Messenger"
@@ -93,7 +93,7 @@ const Navbar = () => {
             </span>
           </NavLink>
           <NavLink to="/notification" className="hover:text-blue-500">
-            <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center">
+            <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
               <img
                 src={notification} // Update with the correct path
                 alt="Notification"
@@ -102,7 +102,7 @@ const Navbar = () => {
             </div>
           </NavLink>
           <NavLink to="/profile" className="hover:text-blue-500">
-            <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center">
+            <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
               <img
                 src={profile} // Update with the correct path
                 alt="Profile"
