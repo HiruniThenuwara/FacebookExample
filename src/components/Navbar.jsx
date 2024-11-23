@@ -23,10 +23,21 @@ const Navbar = () => {
               <img
                 src= {logo} // Update with the correct path
                 alt="Logo"
-                className="h-6 w-6"
+                className="h-10 w-10"
               />
             </div>
-            <span className="hidden sm:block font-medium">Search Facebook</span>
+            <div className="flex items-center bg-gray-100 p-2 rounded-full shadow-sm">
+  {/* Search Icon */}
+  <span className="material-icons text-darkgray-500 text-lg">search</span>
+  
+  {/* Search Input */}
+  <input
+    type="text"
+    placeholder="Search Facebook"
+    className="ml-2 bg-transparent outline-none text-gray-500 text-s"
+  />
+</div>
+
           </div>
         </div>
 

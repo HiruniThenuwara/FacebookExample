@@ -5,7 +5,7 @@ function FeaturedSection() {
   return (
     <div className="w-full bg-white p-5 rounded-md shadow-md overflow-y-auto h-[620px]">
       {/* Featured Heading */}
-      <h3 className="text-2xl font-bold text-gray-800 mb-5">Featured</h3>
+      <h3 className="text-xl font-bold text-gray-800 mb-5">Featured</h3>
       
       {/* Post Container */}
       <div className="flex space-x-6 overflow-x-auto">
